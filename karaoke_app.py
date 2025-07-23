@@ -14,7 +14,7 @@ if os.path.exists(CSV_FILE):
 else:
     df = pd.DataFrame(columns=["題名", "ジャンル", "点数", "感想", "登録日"])
 
-st.title("🎤 カラオケ十八番管理アプリ（完全版・AIなし）")
+st.title("🎤 カラオケ十八番管理アプリ")
 
 # ====== 曲登録フォーム ======
 st.header("🎵 曲を登録する")
